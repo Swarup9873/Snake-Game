@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <div id="blick" type>Click</div>
+    <div class="container">Container
+        <button class="Click" onclick="clicked()">Click Me</button>
+        <p>hello everyone</p>
+    </div>
+    <div class="bontainer">hello</div>
+    
+    <p>thsi is a paragraph</p>
+
+    <script>
+       
+       container.addEventListener('click',function(){
+            console.log("click hua");
+        });
+        ///There are many events in javascript ,,,,for e.g--->>> 1)mouseover,,,2)mouseout,,,,3)click,,, 4)mouseup,,,5)mousedown 
+
+        function clicked(){
+            console.log("the button was clicked")
+            document.querySelectorAll('.container')[2].innerHTML="<b> We have clicked </b> "
+        }
+        
+
+       //DOM---->
+        /*tn=document.getElementsByTagName('div');
+        
+        createElem=document.createElement('p');
+        createElem.innerText="this is a cerated para";
+        tn[0].appendChild(createElem);
+        
+        createElem2=document.createElement('b')
+        createElem2.innerText="this is a bold statemnt";
+
+        tn[0].replaceChild(createElem2,createElem);
+
+        createElem3=document.createElement('i')
+        createElem3.innerText="this is a italic statemnt";
+
+        tn[0].replaceChild(createElem3,createElem2);
+
+        
+
+        sel=document.querySelector('#click')
+
+        console.log(sel);
+
+       
+        */
+
+        //Events in Javascript----->
+        
+
+
+
+    </script>
+</body>
+
+</html>
